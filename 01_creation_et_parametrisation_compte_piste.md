@@ -83,3 +83,13 @@ Vos identifiants, et en particulier vos clefs d'API, sont privés et ne devraien
 
 ![Page de modificaiton des clefs de l'application ](/images/piste-mon-application-authentification.png)
 
+## Notes sur la Sandbox
+
+Les décisions sont publiées sur l'environnement de production. Si la Sandbox est régulièrement mise à jour, elle peut avoir du retard. 
+
+> Les droits de l'application créée automatiquement lors de l'inscription ne sont pas suffisants pour utiliser l'API en production. Une API qui a les droits pour la sandbox n'aura pas nécessairement les droits pour la production.
+
+Pour avoir les droits de consommation de l'API de production, il faut recréer une application, accepter les conditions générales d'utilisation de l'API en production, puis dans l'onglet modification de l'application, on sélectionne JUDILIBRE (production), puis on clique sur `Appliquer les modifications`.
+
+![Page de modification de l'API avec les droits pour JUDILIBRE acceptés](/images/piste-application-modification-judilibre-prod.png)
+
